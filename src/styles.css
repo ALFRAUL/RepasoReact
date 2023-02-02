@@ -1,0 +1,44 @@
+.Card{
+    background-color: #eee;
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgb(228, 169, 152);
+    margin: 20px;
+}
+.Card-title{
+    font-size: 50px;
+    border: 1px solid rgb(207, 91, 91);
+    text-align: center;
+}
+.Card-body{
+    font-size: 30px;   
+}
+.Card-container{
+    display: flex;
+
+}
+.luz{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 3px;    
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;    
+}
+.blue{
+    background-color: blue;    
+}
+.luz-container{
+    background-color: black;
+    width: 60px;
+}
+.iluminado{
+    box-shadow:  1px 0px 8px 6px yellow  ;
+}
